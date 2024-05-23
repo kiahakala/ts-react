@@ -15,18 +15,19 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #00b5c6;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #00b5c6;
 }
 
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  justify-content: center;
+	align-items: center;
+  max-width: 100vw;
   min-height: 100vh;
 }
 
@@ -37,7 +38,7 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 1px solid #1a1a1a;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -45,10 +46,15 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+	width: 8rem;
+	margin-top: 0.4rem;
+	align-self: flex-end;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #00b5c6;
 }
+
+button:active,
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -60,9 +66,13 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #00b5c6;
   }
   button {
     background-color: #f9f9f9;
+		color: #213547;
   }
+	form input {
+		background-color: #f9f9f9;
+	}
 }
