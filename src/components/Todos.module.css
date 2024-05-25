@@ -4,5 +4,6 @@
   list-style: none;
   margin: 2rem auto;
   padding: 0;
-	width: 80vw;
+	width: 40vw;
+	max-width: 80vw;
 }
